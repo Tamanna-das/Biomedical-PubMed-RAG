@@ -88,7 +88,7 @@ def get_settings() -> Settings:
         ollama_model=_env("OLLAMA_MODEL", "llama3.1:8b"),
         openai_base_url=_env("OPENAI_BASE_URL", "https://api.groq.com/openai/v1"),
         openai_api_key=_env("OPENAI_API_KEY", ""),
-        openai_model=_env("OPENAI_MODEL", "llama-3.1-8b-instant"),
+        openai_model=_env("OPENAI_MODEL", "openai/gpt-oss-20b"),
         price_in_per_m=_float("PRICE_IN_PER_M", 0.0),
         price_out_per_m=_float("PRICE_OUT_PER_M", 0.0),
         max_context_chars=_int("MAX_CONTEXT_CHARS", 12000),

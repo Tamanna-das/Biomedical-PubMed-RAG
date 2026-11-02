@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+.pytest_cache/
+data/
+!data/.gitkeep
+results/*_per_query.jsonl
+results/answers_*.jsonl
+*.npy
+.DS_Store
